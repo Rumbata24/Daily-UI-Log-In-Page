@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fffbfa;
+}
+
+input,
+label {
+  display: block;
+}
+
+.main-logIn-container {
+  display: flex;
+  max-width: 974px;
+  gap: 6rem;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 50px auto;
+  padding: 1.5rem;
+  box-shadow: 0px 22px 65px -15px rgba(227, 0, 162, 0.2);
+}
+
+.right-container {
+  margin-top: 5rem;
+}
+
+.right-container h1 {
+  margin-bottom: 3rem;
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+.right-container label {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #161c32;
+  margin-bottom: 1rem;
+}
+
+.right-container label:nth-child(3) {
+  margin-top: 2rem;
+}
+
+.right-container input {
+  background-color: #fffbfa;
+  border: none;
+  border: 1px solid #d9d5d4;
+  border-radius: 5px;
+  outline: none;
+  height: 58px;
+  width: 314px;
+  padding: 1.5rem;
+  color: #161c32;
+}
+
+.right-container .log-in-btn {
+  margin-top: 2rem;
+
+  height: 58px;
+  width: 314px;
+  color: #fff;
+  background-color: #a04625;
+  border: none;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.right-container .or {
+  margin-block: 3rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #8a8b95;
+}
+
+.right-container .linked-in-btn {
+  height: 58px;
+  width: 314px;
+  border: none;
+  background-color: #0d65c2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 900;
+  gap: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.right-container .cant-log-in {
+  font-size: 1.4rem;
+  color: #0D65C2;
+  font-weight: 900;
+
+  display: flex;
+  margin-top: 35%;
+  
+}
